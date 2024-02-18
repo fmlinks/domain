@@ -1,6 +1,7 @@
-# domain
+# Code will be released soon
 
-## semi-supervised learning
-## domain adaptation
-## doamin generalization
-## GS-EMA: gradient surgery exponential moving average
+# Content:
+### 1/ Semi-Supervised Learning
+### 2/ Domain Adaptation
+### 3/ Domain Generalization: GS-EMA, gradient surgery exponential moving average
+
