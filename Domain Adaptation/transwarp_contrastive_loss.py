@@ -39,8 +39,7 @@ def transwarp_contrast(latent_stu_S, latent_stu_T, latent_tea_S, latent_tea_T,
     positive4 = Similarity(gram_stu_T.view(gram_stu_T.size(0), -1), gram_tea_T.view(gram_tea_T.size(0), -1)).mean()
     positive5 = Similarity(gram_stu_S.view(gram_stu_S.size(0), -1), gram_stu_T.view(gram_stu_T.size(0), -1)).mean()
     positive6 = Similarity(gram_tea_S.view(gram_tea_S.size(0), -1), gram_tea_T.view(gram_tea_T.size(0), -1)).mean()
-
-    # train_33_06_ab4
+                           
     contrast = -torch.log((torch.exp(positive1) + torch.exp(positive2) + torch.exp(positive3) +
                            torch.exp(positive4) + torch.exp(positive5) + torch.exp(positive6)) /
                           (torch.exp(positive1) + torch.exp(positive2) + torch.exp(positive3) +
