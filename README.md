@@ -7,4 +7,4 @@
 
 ### 3/ Domain Generalization: GS-EMA, gradient surgery exponential moving average
 
-arXiv version will be released soon.
+arXiv:
