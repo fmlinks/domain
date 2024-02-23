@@ -57,8 +57,6 @@ def validation(val_loader, global_step):
             y = torch.round(batch["label"]).cuda()
             x2 = batch["image_aug"].cuda()
             y2 = batch["label_aug"].cuda()
-            # m2r = batch["MRAtoRA"].cuda()
-            # r2m = batch["RAtoMRA"].cuda()
 
             model.set_input([x, y, x2, y2])
             seg_stu_S, seg_tea_T, seg_stu_T, seg_tea_S, latent_stu_S, latent_tea_T, latent_stu_T, latent_tea_S = model()
