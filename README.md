@@ -1,6 +1,5 @@
 # Full code will be released soon
 
-# Content:
 ### 1/ Semi-Supervised Learning
 
 ### 2/ Domain Adaptation
