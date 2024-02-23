@@ -230,8 +230,7 @@ if __name__ == '__main__':
         )
 
     model = TSNetTrainer().to(device)
-    # model.load_state_dict(torch.load(os.path.join(root_dir,
-    #                                               "train01_03-Step23680_Loss0.0428_DCELoss0.043_ConLoss0.0422.pth")))
+    # model.load_state_dict(torch.load(os.path.join(root_dir, "train01_03.pth")))
 
     torch.backends.cudnn.benchmark = True
 
