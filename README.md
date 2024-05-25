@@ -7,4 +7,3 @@ Fengming Lin*, Yan Xia*, Michael MacRaild, Yash Deo, Haoran Dou, Qiongyao Liu, K
 ### 2/ Domain Generalization: GS-EMA, gradient surgery exponential moving average
 Fengming Lin*, Yan Xia*, Michael MacRaild, Yash Deo, Haoran Dou, Qiongyao Liu, Nina Cheng, Nishant Ravikumar**, Alejandro F. Frangi**
 
-arXiv:
