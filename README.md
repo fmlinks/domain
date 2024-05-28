@@ -1,4 +1,4 @@
-## Full code will be released when the papers are officially published.
+## Full code on colab will be released soon.
 
 
 ### 1/ Domain Adaptation: Transwarp Contrastive Learning
