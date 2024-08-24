@@ -20,6 +20,9 @@ def transwarp_contrast(latent_stu_S, latent_stu_T, latent_tea_S, latent_tea_T,
                           (torch.exp(positive1) + torch.exp(positive2) + torch.exp(positive5) + torch.exp(positive6) +
                            torch.exp(negative1) + torch.exp(negative2)) * tao).mean()
 
+    positive3 = positive1 # 
+    positive4 = positive2 #
+
     return contrast, positive1, positive2, negative1, negative2, positive3, positive4, positive5, positive6
 
 
